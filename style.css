@@ -1,6 +1,8 @@
 body {
 	margin: 0;
 }
+
+
 #navbar {
 	display: grid;
 	grid-template-columns: 50% repeat(3, 1fr); 
@@ -65,15 +67,45 @@ a {
 #projects {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 0.4fr 1fr 0.4fr;
-	grid-gap: 0.5em;
-	background-color: #45567d;
+	grid-template-rows: 1fr 0.2fr 1fr 0.2fr;
+
+	grid-gap: 15px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-left: 10px;
+
 }
 
 #projects p {
 	text-align: center;
+	background-color: black;
+	border-color: black;
 }
 
+.p1 {
+	color: white;
+}
+
+
+.p2 {
+	color: white;
+}
+
+.p3 {
+	color: white;
+}
+
+.p4 {
+	color: white;
+}
+
+.p5 {
+	color: white;
+}
+
+.p6 {
+	color: white;
+}
 
 #proj1 {
 	justify-content: center;
@@ -83,7 +115,8 @@ a {
 	text-align: center;
 	background-color: #45567d;
 	margin: 0;
-
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 
